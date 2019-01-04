@@ -1,14 +1,4 @@
 $('.nav-btn').click(function(){
-    // var onoff = true;
-    // if(onoff){
-    //     // console.log(onoff);
-    //     $('.nav-img').attr("src","img/nav-open.png");
-    //     onoff = false;
-    // }else{
-    //     // console.log(onoff);
-    //     $('.nav-img').attr("src","img/nav-start.png");
-    //     onoff = true;
-    // }
     $('.nav-img').toggleClass('active');
     // $('.nav').toggle();
     if($('.nav-img').hasClass('active')){
@@ -17,3 +7,7 @@ $('.nav-btn').click(function(){
         $('.nav').css("display","none");
     }
 })
+// window.onresize=function(){
+//     $('.header-center').css('width','100%');
+//     $('.nav').css('display','block');
+// }
